@@ -6,6 +6,7 @@ prijzen ={
 
 aanbieding = (3*0.8)
 
-reclame_tekst =f"Vandaag in de aanbieding: aardbei-ijs, 1 liter -slechts € {aanbieding}"
+reclame_tekst =f"Vandaag in de aanbieding: aardbei-ijs, 1 liter - slechts € {aanbieding}"
 reclame_tekst2 = reclame_tekst [:62]
-print (reclame_tekst2)
+reclame_tekst3 = reclame_tekst.upper() [:62]
+print (reclame_tekst3)
