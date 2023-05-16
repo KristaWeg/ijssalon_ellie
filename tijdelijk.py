@@ -10,4 +10,5 @@ reclame_tekst =f"Vandaag in de aanbieding: aardbei-ijs, 1 liter - slechts €{aa
 reclame_tekst2 = reclame_tekst [:62]
 reclame_tekst3 = reclame_tekst.upper() [:62]
 reclame_tekst4 = reclame_tekst3.split() 
-print (reclame_tekst4)
+for el in reclame_tekst4:
+    print (el)
